@@ -3,11 +3,11 @@ using System.Net.NetworkInformation;
 
 namespace Watchdog
 {
-    public partial class Form1 : Form
+    public partial class frmMain : Form
     {
         int failedAttempts = 5;
         private ContextMenuStrip trayMenu;
-        public Form1()
+        public frmMain()
         {
             InitializeComponent();
 
