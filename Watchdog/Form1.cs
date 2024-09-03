@@ -77,11 +77,12 @@ namespace Watchdog
                     return reply.Status == IPStatus.Success;
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 lblStatus.ForeColor = Color.DarkRed;
                 groupBox1.Text = $"Status (Attempts Left: {failedAttempts - 1})";
                 lblStatus.Text = "He's dead, Jim!";
+                Console.WriteLine(ex);
 
                 if (WindowState == FormWindowState.Minimized)
                 {

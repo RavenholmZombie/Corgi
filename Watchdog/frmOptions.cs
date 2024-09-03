@@ -25,7 +25,7 @@ namespace Watchdog
 
             if(String.IsNullOrWhiteSpace(textBox1.Text) || String.IsNullOrEmpty(textBox1.Text))
             {
-                Properties.Settings.Default.ip = "https://github.com/RavenholmZombie";
+                Properties.Settings.Default.ip = "https://google.com";
                 MessageBox.Show("IP/URL Textfield was left empty. Using default URL", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             
