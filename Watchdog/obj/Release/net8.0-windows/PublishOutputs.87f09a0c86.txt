@@ -1,0 +1,6 @@
+C:\Users\chris\Desktop\Corgi\Watchdog.exe
+C:\Users\chris\Desktop\Corgi\Watchdog.dll
+C:\Users\chris\Desktop\Corgi\Watchdog.deps.json
+C:\Users\chris\Desktop\Corgi\Watchdog.runtimeconfig.json
+C:\Users\chris\Desktop\Corgi\Watchdog.dll.config
+C:\Users\chris\Desktop\Corgi\Watchdog.pdb
