@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.1",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chris\\source\\repos\\Watchdog\\Watchdog\\Watchdog.csproj",
+      "projectUniqueName": "D:\\Dev\\Corgi\\Corgi\\Watchdog\\Watchdog.csproj",
       "projectName": "Watchdog",
-      "projectPath": "C:\\Users\\chris\\source\\repos\\Watchdog\\Watchdog\\Watchdog.csproj",
+      "projectPath": "D:\\Dev\\Corgi\\Corgi\\Watchdog\\Watchdog.csproj",
       "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chris\\source\\repos\\Watchdog\\Watchdog\\obj\\",
+      "outputPath": "D:\\Dev\\Corgi\\Corgi\\Watchdog\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
