@@ -24,7 +24,6 @@ D:\Dev\Corgi\Corgi\Watchdog\bin\Debug\net8.0-windows\Watchdog.deps.json
 D:\Dev\Corgi\Corgi\Watchdog\bin\Debug\net8.0-windows\Watchdog.runtimeconfig.json
 D:\Dev\Corgi\Corgi\Watchdog\bin\Debug\net8.0-windows\Watchdog.dll
 D:\Dev\Corgi\Corgi\Watchdog\bin\Debug\net8.0-windows\Watchdog.pdb
-D:\Dev\Corgi\Corgi\Watchdog\obj\Debug\net8.0-windows\Watchdog.Form1.resources
 D:\Dev\Corgi\Corgi\Watchdog\obj\Debug\net8.0-windows\Watchdog.frmCountdown.resources
 D:\Dev\Corgi\Corgi\Watchdog\obj\Debug\net8.0-windows\Watchdog.frmOptions.resources
 D:\Dev\Corgi\Corgi\Watchdog\obj\Debug\net8.0-windows\Watchdog.Properties.Resources.resources
@@ -39,3 +38,6 @@ D:\Dev\Corgi\Corgi\Watchdog\obj\Debug\net8.0-windows\refint\Watchdog.dll
 D:\Dev\Corgi\Corgi\Watchdog\obj\Debug\net8.0-windows\Watchdog.pdb
 D:\Dev\Corgi\Corgi\Watchdog\obj\Debug\net8.0-windows\Watchdog.genruntimeconfig.cache
 D:\Dev\Corgi\Corgi\Watchdog\obj\Debug\net8.0-windows\ref\Watchdog.dll
+D:\Dev\Corgi\Corgi\Watchdog\obj\Debug\net8.0-windows\Watchdog.frmMain.resources
+D:\Dev\Corgi\Corgi\Watchdog\obj\Debug\net8.0-windows\Watchdog.frmBackdrop.resources
+D:\Dev\Corgi\Corgi\Watchdog\obj\Debug\net8.0-windows\Watchdog.frmAbout.resources

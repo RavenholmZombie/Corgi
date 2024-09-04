@@ -99,6 +99,7 @@
             lblCountdown.Name = "lblCountdown";
             lblCountdown.Size = new Size(235, 78);
             lblCountdown.TabIndex = 0;
+            lblCountdown.Text = "Loading";
             lblCountdown.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // frmCountdown
@@ -119,6 +120,7 @@
             ShowInTaskbar = false;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Countdown";
+            TopMost = true;
             Load += frmCountdown_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             groupBox1.ResumeLayout(false);

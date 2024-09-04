@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "D:\\Dev\\Corgi\\Corgi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4E6E3D7F-8C51-49C3-9066-BB381841D99A}|Watchdog\\Watchdog.csproj|D:\\Dev\\Corgi\\Corgi\\watchdog\\frmabout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E6E3D7F-8C51-49C3-9066-BB381841D99A}|Watchdog\\Watchdog.csproj|solutionrelative:watchdog\\frmabout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E6E3D7F-8C51-49C3-9066-BB381841D99A}|Watchdog\\Watchdog.csproj|D:\\Dev\\Corgi\\Corgi\\watchdog\\frmabout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4E6E3D7F-8C51-49C3-9066-BB381841D99A}|Watchdog\\Watchdog.csproj|solutionrelative:watchdog\\frmabout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E6E3D7F-8C51-49C3-9066-BB381841D99A}|Watchdog\\Watchdog.csproj|D:\\Dev\\Corgi\\Corgi\\watchdog\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E6E3D7F-8C51-49C3-9066-BB381841D99A}|Watchdog\\Watchdog.csproj|solutionrelative:watchdog\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4E6E3D7F-8C51-49C3-9066-BB381841D99A}|Watchdog\\Watchdog.csproj|d:\\dev\\corgi\\corgi\\watchdog\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4E6E3D7F-8C51-49C3-9066-BB381841D99A}|Watchdog\\Watchdog.csproj|solutionrelative:watchdog\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E6E3D7F-8C51-49C3-9066-BB381841D99A}|Watchdog\\Watchdog.csproj|D:\\Dev\\Corgi\\Corgi\\watchdog\\frmoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4E6E3D7F-8C51-49C3-9066-BB381841D99A}|Watchdog\\Watchdog.csproj|solutionrelative:watchdog\\frmoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E6E3D7F-8C51-49C3-9066-BB381841D99A}|Watchdog\\Watchdog.csproj|D:\\Dev\\Corgi\\Corgi\\watchdog\\frmoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E6E3D7F-8C51-49C3-9066-BB381841D99A}|Watchdog\\Watchdog.csproj|solutionrelative:watchdog\\frmoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E6E3D7F-8C51-49C3-9066-BB381841D99A}|Watchdog\\Watchdog.csproj|d:\\dev\\corgi\\corgi\\watchdog\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E6E3D7F-8C51-49C3-9066-BB381841D99A}|Watchdog\\Watchdog.csproj|solutionrelative:watchdog\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E6E3D7F-8C51-49C3-9066-BB381841D99A}|Watchdog\\Watchdog.csproj|d:\\dev\\corgi\\corgi\\watchdog\\watchdog.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4E6E3D7F-8C51-49C3-9066-BB381841D99A}|Watchdog\\Watchdog.csproj|solutionrelative:watchdog\\watchdog.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{4E6E3D7F-8C51-49C3-9066-BB381841D99A}|Watchdog\\Watchdog.csproj|D:\\Dev\\Corgi\\Corgi\\watchdog\\frmcountdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E6E3D7F-8C51-49C3-9066-BB381841D99A}|Watchdog\\Watchdog.csproj|solutionrelative:watchdog\\frmcountdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4E6E3D7F-8C51-49C3-9066-BB381841D99A}|Watchdog\\Watchdog.csproj|D:\\Dev\\Corgi\\Corgi\\watchdog\\frmcountdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4E6E3D7F-8C51-49C3-9066-BB381841D99A}|Watchdog\\Watchdog.csproj|solutionrelative:watchdog\\frmcountdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E6E3D7F-8C51-49C3-9066-BB381841D99A}|Watchdog\\Watchdog.csproj|d:\\dev\\corgi\\corgi\\watchdog\\frmcountdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E6E3D7F-8C51-49C3-9066-BB381841D99A}|Watchdog\\Watchdog.csproj|solutionrelative:watchdog\\frmcountdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E6E3D7F-8C51-49C3-9066-BB381841D99A}|Watchdog\\Watchdog.csproj|D:\\Dev\\Corgi\\Corgi\\watchdog\\frmbackdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4E6E3D7F-8C51-49C3-9066-BB381841D99A}|Watchdog\\Watchdog.csproj|solutionrelative:watchdog\\frmbackdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E6E3D7F-8C51-49C3-9066-BB381841D99A}|Watchdog\\Watchdog.csproj|D:\\Dev\\Corgi\\Corgi\\watchdog\\frmbackdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E6E3D7F-8C51-49C3-9066-BB381841D99A}|Watchdog\\Watchdog.csproj|solutionrelative:watchdog\\frmbackdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,33 +42,92 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Watchdog",
-              "DocumentMoniker": "D:\\Dev\\Corgi\\Corgi\\Watchdog\\Watchdog.csproj",
-              "RelativeDocumentMoniker": "Watchdog\\Watchdog.csproj",
-              "ToolTip": "D:\\Dev\\Corgi\\Corgi\\Watchdog\\Watchdog.csproj",
-              "RelativeToolTip": "Watchdog\\Watchdog.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-03T04:04:35.471Z",
+              "DocumentIndex": 0,
+              "Title": "frmAbout.cs",
+              "DocumentMoniker": "D:\\Dev\\Corgi\\Corgi\\Watchdog\\frmAbout.cs",
+              "RelativeDocumentMoniker": "Watchdog\\frmAbout.cs",
+              "ToolTip": "D:\\Dev\\Corgi\\Corgi\\Watchdog\\frmAbout.cs",
+              "RelativeToolTip": "Watchdog\\frmAbout.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAA5wDYAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T19:34:30.662Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmAbout.cs [Design]",
+              "DocumentMoniker": "D:\\Dev\\Corgi\\Corgi\\Watchdog\\frmAbout.cs",
+              "RelativeDocumentMoniker": "Watchdog\\frmAbout.cs",
+              "ToolTip": "D:\\Dev\\Corgi\\Corgi\\Watchdog\\frmAbout.cs [Design]",
+              "RelativeToolTip": "Watchdog\\frmAbout.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T19:32:11.397Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "D:\\Dev\\Corgi\\Corgi\\Watchdog\\frmMain.cs",
+              "RelativeDocumentMoniker": "Watchdog\\frmMain.cs",
+              "ToolTip": "D:\\Dev\\Corgi\\Corgi\\Watchdog\\frmMain.cs",
+              "RelativeToolTip": "Watchdog\\frmMain.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAYwEQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T19:31:25.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmMain.cs [Design]",
+              "DocumentMoniker": "D:\\Dev\\Corgi\\Corgi\\Watchdog\\frmMain.cs",
+              "RelativeDocumentMoniker": "Watchdog\\frmMain.cs",
+              "ToolTip": "D:\\Dev\\Corgi\\Corgi\\Watchdog\\frmMain.cs [Design]",
+              "RelativeToolTip": "Watchdog\\frmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T19:31:20.899Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmBackdrop.cs",
+              "DocumentMoniker": "D:\\Dev\\Corgi\\Corgi\\Watchdog\\frmBackdrop.cs",
+              "RelativeDocumentMoniker": "Watchdog\\frmBackdrop.cs",
+              "ToolTip": "D:\\Dev\\Corgi\\Corgi\\Watchdog\\frmBackdrop.cs",
+              "RelativeToolTip": "Watchdog\\frmBackdrop.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAD4vx8AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T18:23:13.951Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "frmBackdrop.cs [Design]",
+              "DocumentMoniker": "D:\\Dev\\Corgi\\Corgi\\Watchdog\\frmBackdrop.cs",
+              "RelativeDocumentMoniker": "Watchdog\\frmBackdrop.cs",
+              "ToolTip": "D:\\Dev\\Corgi\\Corgi\\Watchdog\\frmBackdrop.cs [Design]",
+              "RelativeToolTip": "Watchdog\\frmBackdrop.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T18:21:27.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "frmCountdown.cs",
               "DocumentMoniker": "D:\\Dev\\Corgi\\Corgi\\Watchdog\\frmCountdown.cs",
               "RelativeDocumentMoniker": "Watchdog\\frmCountdown.cs",
               "ToolTip": "D:\\Dev\\Corgi\\Corgi\\Watchdog\\frmCountdown.cs",
               "RelativeToolTip": "Watchdog\\frmCountdown.cs",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAUwGcAAAAMAAAA",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAIwGkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T07:13:35.069Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-24T07:13:35.069Z"
             },
             {
               "$type": "Document",
@@ -75,58 +138,7 @@
               "ToolTip": "D:\\Dev\\Corgi\\Corgi\\Watchdog\\frmCountdown.cs [Design]",
               "RelativeToolTip": "Watchdog\\frmCountdown.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T07:13:33.265Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmOptions.cs",
-              "DocumentMoniker": "D:\\Dev\\Corgi\\Corgi\\Watchdog\\frmOptions.cs",
-              "RelativeDocumentMoniker": "Watchdog\\frmOptions.cs",
-              "ToolTip": "D:\\Dev\\Corgi\\Corgi\\Watchdog\\frmOptions.cs",
-              "RelativeToolTip": "Watchdog\\frmOptions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T07:03:29.033Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmOptions.cs [Design]",
-              "DocumentMoniker": "D:\\Dev\\Corgi\\Corgi\\Watchdog\\frmOptions.cs",
-              "RelativeDocumentMoniker": "Watchdog\\frmOptions.cs",
-              "ToolTip": "D:\\Dev\\Corgi\\Corgi\\Watchdog\\frmOptions.cs [Design]",
-              "RelativeToolTip": "Watchdog\\frmOptions.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T07:03:27.369Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmMain.cs",
-              "DocumentMoniker": "D:\\Dev\\Corgi\\Corgi\\Watchdog\\frmMain.cs",
-              "RelativeDocumentMoniker": "Watchdog\\frmMain.cs",
-              "ToolTip": "D:\\Dev\\Corgi\\Corgi\\Watchdog\\frmMain.cs",
-              "RelativeToolTip": "Watchdog\\frmMain.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAWwFUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T06:53:06.65Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmMain.cs [Design]",
-              "DocumentMoniker": "D:\\Dev\\Corgi\\Corgi\\Watchdog\\frmMain.cs",
-              "RelativeDocumentMoniker": "Watchdog\\frmMain.cs",
-              "ToolTip": "D:\\Dev\\Corgi\\Corgi\\Watchdog\\frmMain.cs [Design]",
-              "RelativeToolTip": "Watchdog\\frmMain.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T06:53:02.536Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-08-24T07:13:33.265Z"
             }
           ]
         }

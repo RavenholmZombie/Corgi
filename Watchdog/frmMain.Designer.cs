@@ -40,15 +40,22 @@
             button3 = new Button();
             corgiIcon = new NotifyIcon(components);
             formCheck = new System.Windows.Forms.Timer(components);
-            lblVersion = new Label();
+            menuStrip1 = new MenuStrip();
+            aboutToolStripMenuItem = new ToolStripMenuItem();
+            aboutCorgiToolStripMenuItem = new ToolStripMenuItem();
+            checkForUpdatesToolStripMenuItem = new ToolStripMenuItem();
+            toolStripSeparator1 = new ToolStripSeparator();
+            exitToolStripMenuItem = new ToolStripMenuItem();
+            updateAvailableToolStripMenuItem = new ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             groupBox1.SuspendLayout();
+            menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.corgi;
-            pictureBox1.Location = new Point(110, 21);
+            pictureBox1.Location = new Point(110, 32);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(61, 61);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -59,7 +66,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 9F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            label1.Location = new Point(87, 92);
+            label1.Location = new Point(87, 103);
             label1.Name = "label1";
             label1.Size = new Size(106, 15);
             label1.TabIndex = 1;
@@ -69,7 +76,7 @@
             // 
             groupBox1.Controls.Add(progressBar1);
             groupBox1.Controls.Add(lblStatus);
-            groupBox1.Location = new Point(15, 120);
+            groupBox1.Location = new Point(15, 131);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(250, 100);
             groupBox1.TabIndex = 2;
@@ -100,7 +107,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(15, 230);
+            button1.Location = new Point(15, 241);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 3;
@@ -114,7 +121,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(190, 230);
+            button3.Location = new Point(190, 241);
             button3.Name = "button3";
             button3.Size = new Size(75, 23);
             button3.TabIndex = 5;
@@ -134,37 +141,79 @@
             // 
             formCheck.Tick += formCheck_Tick;
             // 
-            // lblVersion
+            // menuStrip1
             // 
-            lblVersion.AutoSize = true;
-            lblVersion.Enabled = false;
-            lblVersion.Location = new Point(121, 234);
-            lblVersion.Name = "lblVersion";
-            lblVersion.Size = new Size(31, 15);
-            lblVersion.TabIndex = 6;
-            lblVersion.Text = "1.0.1";
+            menuStrip1.Items.AddRange(new ToolStripItem[] { aboutToolStripMenuItem, updateAvailableToolStripMenuItem });
+            menuStrip1.Location = new Point(0, 0);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Size = new Size(281, 24);
+            menuStrip1.TabIndex = 7;
+            menuStrip1.Text = "menuStrip1";
             // 
-            // Form1
+            // aboutToolStripMenuItem
+            // 
+            aboutToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { aboutCorgiToolStripMenuItem, checkForUpdatesToolStripMenuItem, toolStripSeparator1, exitToolStripMenuItem });
+            aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            aboutToolStripMenuItem.Size = new Size(52, 20);
+            aboutToolStripMenuItem.Text = "About";
+            // 
+            // aboutCorgiToolStripMenuItem
+            // 
+            aboutCorgiToolStripMenuItem.Name = "aboutCorgiToolStripMenuItem";
+            aboutCorgiToolStripMenuItem.Size = new Size(171, 22);
+            aboutCorgiToolStripMenuItem.Text = "About Corgi";
+            aboutCorgiToolStripMenuItem.Click += aboutCorgiToolStripMenuItem_Click;
+            // 
+            // checkForUpdatesToolStripMenuItem
+            // 
+            checkForUpdatesToolStripMenuItem.Name = "checkForUpdatesToolStripMenuItem";
+            checkForUpdatesToolStripMenuItem.Size = new Size(171, 22);
+            checkForUpdatesToolStripMenuItem.Text = "Check for Updates";
+            checkForUpdatesToolStripMenuItem.Click += checkForUpdatesToolStripMenuItem_Click;
+            // 
+            // toolStripSeparator1
+            // 
+            toolStripSeparator1.Name = "toolStripSeparator1";
+            toolStripSeparator1.Size = new Size(168, 6);
+            // 
+            // exitToolStripMenuItem
+            // 
+            exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            exitToolStripMenuItem.Size = new Size(171, 22);
+            exitToolStripMenuItem.Text = "Exit";
+            exitToolStripMenuItem.Click += exitToolStripMenuItem_Click;
+            // 
+            // updateAvailableToolStripMenuItem
+            // 
+            updateAvailableToolStripMenuItem.Name = "updateAvailableToolStripMenuItem";
+            updateAvailableToolStripMenuItem.Size = new Size(108, 20);
+            updateAvailableToolStripMenuItem.Text = "Update Available";
+            updateAvailableToolStripMenuItem.Click += updateAvailableToolStripMenuItem_Click;
+            // 
+            // frmMain
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(281, 265);
-            Controls.Add(lblVersion);
+            ClientSize = new Size(281, 278);
             Controls.Add(button3);
             Controls.Add(button1);
             Controls.Add(groupBox1);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
+            Controls.Add(menuStrip1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
+            MainMenuStrip = menuStrip1;
             MaximizeBox = false;
-            Name = "Form1";
+            Name = "frmMain";
             Text = "Corgi. The Adorable Watchdog";
             FormClosing += Form1_FormClosing;
             Load += Form1_Load;
             Resize += Form1_Resize;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             groupBox1.ResumeLayout(false);
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -181,6 +230,12 @@
         private Button button3;
         private NotifyIcon corgiIcon;
         private System.Windows.Forms.Timer formCheck;
-        private Label lblVersion;
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem aboutToolStripMenuItem;
+        private ToolStripMenuItem aboutCorgiToolStripMenuItem;
+        private ToolStripMenuItem checkForUpdatesToolStripMenuItem;
+        private ToolStripSeparator toolStripSeparator1;
+        private ToolStripMenuItem exitToolStripMenuItem;
+        private ToolStripMenuItem updateAvailableToolStripMenuItem;
     }
 }

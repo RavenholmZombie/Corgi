@@ -99,7 +99,7 @@ namespace Watchdog
             var psi = new ProcessStartInfo("shutdown", "/r /t 0")
             {
                 CreateNoWindow = true,
-                UseShellExecute = false
+                UseShellExecute = true
             };
             Process.Start(psi);
         }

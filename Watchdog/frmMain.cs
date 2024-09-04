@@ -1,3 +1,4 @@
+using System.Media;
 using System.Net;
 using System.Net.NetworkInformation;
 
@@ -47,17 +48,54 @@ namespace Watchdog
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            lblVersion.Text = Application.ProductVersion;
-            if(Properties.Settings.Default.pingOnStartup)
+            CheckForUpdatesAsync("https://raw.githubusercontent.com/RavenholmZombie/Corgi/main/ver.txt");
+            updateAvailableToolStripMenuItem.Visible = false;
+
+            if (Properties.Settings.Default.pingOnStartup)
             {
                 button3.PerformClick();
             }
 
-            if(Properties.Settings.Default.startMinimized)
+            if (Properties.Settings.Default.startMinimized)
             {
                 WindowState = FormWindowState.Minimized;
                 ShowInTaskbar = false;
             }
+        }
+
+        public async Task CheckForUpdatesAsync(string url)
+        {
+            try
+            {
+                using (HttpClient client = new HttpClient())
+                {
+                    string latestVersion = await client.GetStringAsync(url);
+                    latestVersion = latestVersion.Trim(); // Remove any extra spaces or newlines
+
+                    string currentVersion = Application.ProductVersion;
+
+                    if (IsNewVersionAvailable(currentVersion, latestVersion))
+                    {
+                        updateAvailableToolStripMenuItem.Visible = true;
+                    }
+                    else
+                    {
+                        updateAvailableToolStripMenuItem.Visible = false;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                updateAvailableToolStripMenuItem.Visible = false;
+            }
+        }
+
+        private bool IsNewVersionAvailable(string currentVersion, string latestVersion)
+        {
+            Version current = new Version(currentVersion);
+            Version latest = new Version(latestVersion);
+
+            return latest > current;
         }
 
         private bool IsIpAddressActive(string ip)
@@ -100,7 +138,7 @@ namespace Watchdog
         private void refreshTimer_Tick(object sender, EventArgs e)
         {
             progressBar1.Value--;
-            
+
             if (progressBar1.Value <= 2)
             {
                 progressBar1.Value = 100;
@@ -112,8 +150,8 @@ namespace Watchdog
                     button3.Text = "Restart";
                     refreshTimer.Stop();
                     Properties.Settings.Default.Save();
-                    frmCountdown frmCountdown = new frmCountdown();
-                    frmCountdown.Show();
+                    frmBackdrop frmBackdrop = new frmBackdrop();
+                    frmBackdrop.Show();
                     formCheck.Start();
                     Hide();
                 }
@@ -168,7 +206,7 @@ namespace Watchdog
 
         private void formCheck_Tick(object sender, EventArgs e)
         {
-            if(FormChecker.IsFormOpen("frmCountdown"))
+            if (FormChecker.IsFormOpen("frmCountdown") || FormChecker.IsFormOpen("frmBackdrop"))
             {
                 Hide();
             }
@@ -180,6 +218,31 @@ namespace Watchdog
                 groupBox1.Text = "Status";
                 failedAttempts = 5;
             }
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void aboutCorgiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAbout frmAbout = new frmAbout();
+            frmAbout.ShowDialog();
+        }
+
+        private void checkForUpdatesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAbout frmAbout = new frmAbout();
+            frmAbout.SetTabPage(2);
+            frmAbout.ShowDialog();
+        }
+
+        private void updateAvailableToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAbout frmAbout = new frmAbout();
+            frmAbout.SetTabPage(2);
+            frmAbout.ShowDialog();
         }
     }
 }
